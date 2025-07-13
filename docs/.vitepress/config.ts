@@ -9,7 +9,7 @@ import mdItCustomAttrs from 'markdown-it-custom-attrs'
 export default withPwa(
   defineConfig({
     head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }],
+      ['link', { rel: 'icon', href: '/XHS-Spider-Doc/favicon.ico' }],
       [
         'meta',
         {
@@ -29,13 +29,13 @@ export default withPwa(
         'link',
         {
           rel: 'stylesheet',
-          href: '/fancybox/fancybox.css',
+          href: '/XHS-Spider-Doc/fancybox/fancybox.css',
         },
       ],
       [
         'script',
         {
-          src: '/fancybox/fancybox.umd.js',
+          src: '/XHS-Spider-Doc/fancybox/fancybox.umd.js',
         },
       ],
       // [
@@ -61,7 +61,7 @@ export default withPwa(
     title: 'XHS.Spider颜值超高的数据采集工具',
     description: '小红书数据采集,小红书,数据采集,搬运,二创,批量下载,网站图片,视频资源批量下载工具,颜值超高的数据采集工具（批量下载,视频提取,图片,去水印等）',
     lang: 'zh-CN',
-    base: '/',
+    base: '/XHS-Spider-Doc/',
     lastUpdated: true,
     ignoreDeadLinks: true,
     cleanUrls: false,
