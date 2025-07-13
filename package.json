@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "XHS-Spider",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs --port 8800",
     "build": "vitepress build docs",

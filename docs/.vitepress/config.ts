@@ -95,10 +95,10 @@ export default withPwa(
       returnToTopLabel: '返回顶部',
       outline: 'deep',
       lastUpdatedText: '上次更新',
-      editLink: {
-        pattern: 'https://github.com/xisuo67/XHS-Spider-Doc/edit/main/docs/:path',
-        text: '在 github 上编辑此页',
-      },
+      // editLink: {
+      //   pattern: 'https://github.com/xisuo67/XHS-Spider-Doc/edit/main/docs/:path',
+      //   text: '在 github 上编辑此页',
+      // },
       footer: {
         message: '友情链接<a href="https://www.yuanxuegu.com/" target="_blank" rel="nofollow" style="color:var(--vp-c-brand-light);white-space: nowrap;">猿学谷</a>',
         copyright:
